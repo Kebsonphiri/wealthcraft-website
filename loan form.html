@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loan form.css">
+    <title>Loan Form</title>
+</head>
+<body>
+    <section class="header">
+      <header>
+        <h1>Loan Application Form</h1>
+    </header>
+
+    <nav>
+        <a href="main page.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contacts</a>
+        <a href="loan form.html">Loan Form</a>
+        <a href="capital raising.html">Capital Raising</a>
+    </nav>
+    <form>
+        <h2>Loan Application Form</h2>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="amount">Loan Amount:</label>
+        <input type="number" id="amount" name="amount" required>
+
+        <label for="term">Loan Term (months):</label>
+        <input type="number" id="term" name="term" required>
+
+        <label for="purpose">Loan Purpose:</label>
+        <select id="purpose" name="purpose" required>
+            <option value="personal">Personal</option>
+            <option value="business">Business</option>
+            <option value="education">Education</option>
+        </select>
+
+        <button type="submit">Submit Application</button>
+    </form>
+    </section>
+    <footer>
+      &copy; 2023 Wealth Craft Ventures Loan Company. All rights reserved.
+    </footer>
+</body>
+</html>
